@@ -11766,7 +11766,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
@@ -11781,7 +11781,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">sample</span> <span class="o">=</span> <span class="s">&#39;T1&#39;</span>
@@ -11824,7 +11824,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># read the merged ebsd scan data</span>
@@ -11861,13 +11861,13 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[14]:</div>
+<div class="prompt output_prompt">Out[3]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x4d91e50&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x3b16c50&gt;</pre>
 </div>
 
 </div>
@@ -12858,7 +12858,7 @@ A/Kr/pnXSxInAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
@@ -14850,7 +14850,7 @@ IAiCIIiI/Bclk3hCaKQCUAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># transformation matrix from A1A2A3 to XYZ</span>
@@ -14877,7 +14877,7 @@ IAiCIIiI/Bclk3hCaKQCUAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">micro</span><span class="o">.</span><span class="n">grains</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">id</span>
@@ -14893,7 +14893,7 @@ IAiCIIiI/Bclk3hCaKQCUAAAAABJRU5ErkJggg==
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[60]:</div>
+<div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -14918,7 +14918,7 @@ IAiCIIiI/Bclk3hCaKQCUAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="kn">from</span> <span class="nn">pymicro.crystal.lattice</span> <span class="kn">import</span> <span class="n">Lattice</span><span class="p">,</span> <span class="n">HklPlane</span><span class="p">,</span> <span class="n">HklDirection</span>
@@ -14937,7 +14937,7 @@ IAiCIIiI/Bclk3hCaKQCUAAAAABJRU5ErkJggg==
            <span class="n">extent</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">scan_step</span> <span class="o">*</span> <span class="n">iq</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">scan_step</span> <span class="o">*</span> <span class="n">iq</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="mi">0</span><span class="p">))</span>
 
 <span class="k">for</span> <span class="n">g</span> <span class="ow">in</span> <span class="n">micro</span><span class="o">.</span><span class="n">grains</span><span class="p">:</span>
-    <span class="n">trace</span> <span class="o">=</span> <span class="n">p_basal</span><span class="o">.</span><span class="n">slip_traces</span><span class="p">(</span><span class="n">g</span><span class="o">.</span><span class="n">orientation</span><span class="p">,</span> <span class="n">n_int</span><span class="p">,</span> <span class="n">view_up</span><span class="p">,</span> <span class="n">trace_size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+    <span class="n">trace</span> <span class="o">=</span> <span class="n">p_basal</span><span class="o">.</span><span class="n">slip_trace</span><span class="p">(</span><span class="n">g</span><span class="o">.</span><span class="n">orientation</span><span class="p">,</span> <span class="n">n_int</span><span class="p">,</span> <span class="n">view_up</span><span class="p">,</span> <span class="n">trace_size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">g</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="mi">26</span><span class="p">:</span>
         <span class="n">color</span> <span class="o">=</span> <span class="s">&#39;r&#39;</span>
         <span class="k">print</span><span class="p">(</span><span class="n">g</span><span class="o">.</span><span class="n">orientation</span><span class="p">)</span>
@@ -14977,7 +14977,7 @@ Rodrigues vector = [ 1.14962092 -1.10931753 -0.36261911]
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[17]:</div>
+<div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -16685,7 +16685,7 @@ Yg5/KQnR8+4AAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># now try with prismatic planes</span>
@@ -16707,7 +16707,7 @@ Yg5/KQnR8+4AAAAASUVORK5CYII=
 <span class="k">for</span> <span class="n">g</span> <span class="ow">in</span> <span class="n">micro</span><span class="o">.</span><span class="n">grains</span><span class="p">:</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">g</span><span class="o">.</span><span class="n">position</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">g</span><span class="o">.</span><span class="n">position</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s">&#39;ko&#39;</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">slip_prism</span><span class="p">:</span>
-        <span class="n">trace</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">slip_traces</span><span class="p">(</span><span class="n">g</span><span class="o">.</span><span class="n">orientation</span><span class="p">,</span> <span class="n">n_int</span><span class="p">,</span> <span class="n">view_up</span><span class="p">,</span> <span class="n">trace_size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+        <span class="n">trace</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">slip_trace</span><span class="p">(</span><span class="n">g</span><span class="o">.</span><span class="n">orientation</span><span class="p">,</span> <span class="n">n_int</span><span class="p">,</span> <span class="n">view_up</span><span class="p">,</span> <span class="n">trace_size</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
         <span class="n">x</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">position</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="n">trace</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">trace</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="mi">2</span><span class="p">])</span>
         <span class="n">y</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">position</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="n">trace</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">trace</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="mi">2</span><span class="p">])</span>
         <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s">&#39;k-&#39;</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -16725,7 +16725,7 @@ Yg5/KQnR8+4AAAAASUVORK5CYII=
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[18]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -18954,7 +18954,7 @@ eOhgLIINGDBgwIABAwYMPHT4f9wlE8pXhpMkAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># compute a field where we check if the basal plane can be aligned with topotomo </span>
@@ -18990,28 +18990,10 @@ eOhgLIINGDBgwIABAwYMPHT4f9wlE8pXhpMkAAAAAElFTkSuQmCC
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[(1, 0, 0), (0, 1, 0), (0, 0, 1), (1, 1, 0), (-1, 1, 0), (1, 0, 1), (-1, 0, 1), (0, 1, 1), (0, -1, 1), (1, 1, 1), (-1, 1, 1), (1, -1, 1), (1, 1, -1), (1, 1, 2), (-1, 1, 2), (1, -1, 2), (1, 1, -2), (1, 2, 1), (-1, 2, 1), (1, -2, 1), (1, 2, -1), (2, 1, 1), (-2, 1, 1), (2, -1, 1), (2, 1, -1)]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">indices_align</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argwhere</span><span class="p">(</span><span class="n">align</span><span class="p">[</span><span class="mi">25</span><span class="p">])</span>
@@ -19051,7 +19033,7 @@ with ut=12.08 deg and lt = -0.49 deg
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
@@ -19072,7 +19054,7 @@ with ut=12.08 deg and lt = -0.49 deg
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[25]:</div>
+<div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -20875,7 +20857,7 @@ PTw8PDw8PDw8rjr8f3pHNME95RPoAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">hkl_to_align</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">grains</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int8</span><span class="p">)</span>
@@ -20913,7 +20895,7 @@ PTw8PDw8PDw8rjr8f3pHNME95RPoAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
@@ -20935,7 +20917,7 @@ PTw8PDw8PDw8rjr8f3pHNME95RPoAAAAAElFTkSuQmCC
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[53]:</div>
+<div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -22925,6 +22907,344 @@ Qpz/B/z5nQ2OU4RHAAAAAElFTkSuQmCC
 >
 </div>
 
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="n">indices_WL</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span>
+     <span class="p">(</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">),</span>
+     <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">),</span>
+     <span class="p">(</span> <span class="mi">0</span><span class="p">,</span>  <span class="mi">0</span><span class="p">,</span>  <span class="mi">0</span><span class="p">,</span>  <span class="mi">2</span><span class="p">),</span>
+     <span class="p">(</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">),</span>
+     <span class="p">(</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span>
+     <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">),</span>
+     <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span>
+     <span class="p">(</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">2</span><span class="p">),</span>
+     <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">2</span><span class="p">),</span>
+     <span class="p">(</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">),</span>
+     <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">2</span><span class="p">,</span>  <span class="mi">0</span><span class="p">),</span>
+     <span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">),</span>
+     <span class="p">(</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">3</span><span class="p">),</span>
+     <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">,</span>  <span class="mi">3</span><span class="p">),</span>
+     <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">0</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">3</span><span class="p">),</span>
+<span class="p">])</span>
+<span class="n">grain</span> <span class="o">=</span> <span class="n">micro</span><span class="o">.</span><span class="n">grains</span><span class="p">[</span><span class="mi">25</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">grain</span><span class="p">)</span>
+<span class="p">[</span><span class="n">astar</span><span class="p">,</span> <span class="n">bstar</span><span class="p">,</span> <span class="n">cstar</span><span class="p">]</span> <span class="o">=</span> <span class="n">Ti7Al</span><span class="o">.</span><span class="n">reciprocal_lattice</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;Reciprocal lattice:&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;a* = </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">astar</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;b* = </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">bstar</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;c* = </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">cstar</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;</span><span class="se">\n</span><span class="s">* double check values of samrx and samry for tt aligment&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">ind</span> <span class="ow">in</span> <span class="n">indices_WL</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">)</span> <span class="o">=</span> <span class="n">HklPlane</span><span class="o">.</span><span class="n">four_to_three_indices</span><span class="p">(</span><span class="o">*</span><span class="n">ind</span><span class="p">)</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">HklPlane</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">Ti7Al</span><span class="p">)</span>
+    <span class="n">ut</span><span class="p">,</span> <span class="n">lt</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">grain</span><span class="o">.</span><span class="n">orientation</span><span class="o">.</span><span class="n">topotomo_tilts</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="bp">False</span><span class="p">))</span> <span class="o">*</span> <span class="mi">180</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&#39;samrx = </span><span class="si">%.2f</span><span class="s"> samry = </span><span class="si">%.2f</span><span class="s"> for (</span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">,  </span><span class="si">%d</span><span class="s">,  </span><span class="si">%d</span><span class="s">,) which is (</span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">)&#39;</span> 
+          <span class="o">%</span> <span class="p">(</span><span class="n">lt</span><span class="p">,</span> <span class="n">ut</span><span class="p">,</span> <span class="n">ind</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">ind</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">ind</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">ind</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">))</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;</span><span class="se">\n</span><span class="s">* double check expression of scattering vector&#39;</span><span class="p">)</span>
+<span class="c"># express scattering vector in cartesian crystal frame</span>
+<span class="k">for</span> <span class="n">ind</span> <span class="ow">in</span> <span class="n">indices_WL</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">)</span> <span class="o">=</span> <span class="n">HklPlane</span><span class="o">.</span><span class="n">four_to_three_indices</span><span class="p">(</span><span class="o">*</span><span class="n">ind</span><span class="p">)</span>
+    <span class="n">Gc</span> <span class="o">=</span> <span class="n">h</span> <span class="o">*</span> <span class="n">astar</span> <span class="o">+</span> <span class="n">k</span> <span class="o">*</span> <span class="n">bstar</span> <span class="o">+</span> <span class="n">l</span> <span class="o">*</span> <span class="n">cstar</span>
+    <span class="n">Gs</span> <span class="o">=</span> <span class="n">grain</span><span class="o">.</span><span class="n">orientation</span><span class="o">.</span><span class="n">orientation_matrix</span><span class="p">()</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">Gc</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&#39;Gc=</span><span class="si">%s</span><span class="s"> for (</span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">,  </span><span class="si">%d</span><span class="s">,  </span><span class="si">%d</span><span class="s">,) which is (</span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">Gc</span><span class="p">,</span> <span class="n">ind</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">ind</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">ind</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">ind</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Grain
+ * id = 26
+ * Crystal Orientation
+orientation matrix = [[ 0.26048501 -0.8892749   0.37594909]
+ [-0.49552025  0.21105497  0.84256482]
+ [-0.82861767 -0.40576589 -0.38567706]]
+Euler angles (degrees) = ( 296.091, 112.686,  24.046)
+Rodrigues vector = [ 1.14962092 -1.10931753 -0.36261911]
+ * position [ 669.616  242.855    0.   ]
+ * has vtk mesh ? False
+
+Reciprocal lattice:
+a* = [  3.41180484e+00   1.96980645e+00  -4.17825588e-16]
+b* = [  0.00000000e+00   3.93961289e+00  -4.17825588e-16]
+c* = [ 0.         -0.          2.13037921]
+
+* double check values of samrx and samry for tt aligment
+samrx = 12.18 samry = 30.46 for (0, -1,  1,  0,) which is (0, -1, 0)
+samrx = -41.65 samry = 1.70 for (-1, 0,  1,  0,) which is (-1, 0, 0)
+samrx = 23.94 samry = -65.04 for (0, 0,  0,  2,) which is (0, 0, 2)
+samrx = 22.25 samry = 2.58 for (0, -1,  1,  1,) which is (0, -1, 1)
+samrx = -0.42 samry = 56.10 for (0, -1,  1,  -1,) which is (0, -1, -1)
+samrx = -23.05 samry = -24.03 for (-1, 0,  1,  1,) which is (-1, 0, 1)
+samrx = -51.04 samry = 41.14 for (-1, 0,  1,  -1,) which is (-1, 0, -1)
+samrx = 26.18 samry = -17.64 for (0, -1,  1,  2,) which is (0, -1, 2)
+samrx = -8.82 samry = -36.90 for (-1, 0,  1,  2,) which is (-1, 0, 2)
+samrx = 38.86 samry = 45.92 for (1, -2,  1,  0,) which is (1, -2, 0)
+samrx = -15.18 samry = 18.04 for (-1, -1,  2,  0,) which is (-1, -1, 0)
+samrx = -62.78 samry = -34.72 for (-2, 1,  1,  0,) which is (-2, 1, 0)
+samrx = 27.14 samry = -30.03 for (0, -1,  1,  3,) which is (0, -1, 3)
+samrx = -6.55 samry = -73.74 for (-1, 1,  0,  3,) which is (-1, 1, 3)
+samrx = -0.19 samry = -43.93 for (-1, 0,  1,  3,) which is (-1, 0, 3)
+
+* double check expression of scattering vector
+Gc=[  0.00000000e+00  -3.93961289e+00   4.17825588e-16] for (0, -1,  1,  0,) which is (0, -1, 0)
+Gc=[ -3.41180484e+00  -1.96980645e+00   4.17825588e-16] for (-1, 0,  1,  0,) which is (-1, 0, 0)
+Gc=[ 0.          0.          4.26075841] for (0, 0,  0,  2,) which is (0, 0, 2)
+Gc=[ 0.         -3.93961289  2.13037921] for (0, -1,  1,  1,) which is (0, -1, 1)
+Gc=[ 0.         -3.93961289 -2.13037921] for (0, -1,  1,  -1,) which is (0, -1, -1)
+Gc=[-3.41180484 -1.96980645  2.13037921] for (-1, 0,  1,  1,) which is (-1, 0, 1)
+Gc=[-3.41180484 -1.96980645 -2.13037921] for (-1, 0,  1,  -1,) which is (-1, 0, -1)
+Gc=[ 0.         -3.93961289  4.26075841] for (0, -1,  1,  2,) which is (0, -1, 2)
+Gc=[-3.41180484 -1.96980645  4.26075841] for (-1, 0,  1,  2,) which is (-1, 0, 2)
+Gc=[  3.41180484e+00  -5.90941934e+00   4.17825588e-16] for (1, -2,  1,  0,) which is (1, -2, 0)
+Gc=[ -3.41180484e+00  -5.90941934e+00   8.35651176e-16] for (-1, -1,  2,  0,) which is (-1, -1, 0)
+Gc=[ -6.82360969e+00   1.33226763e-15   4.17825588e-16] for (-2, 1,  1,  0,) which is (-2, 1, 0)
+Gc=[ 0.         -3.93961289  6.39113762] for (0, -1,  1,  3,) which is (0, -1, 3)
+Gc=[-3.41180484  1.96980645  6.39113762] for (-1, 1,  0,  3,) which is (-1, 1, 3)
+Gc=[-3.41180484 -1.96980645  6.39113762] for (-1, 0,  1,  3,) which is (-1, 0, 3)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="c"># double check with grain 4 in AlLi_sam8_dct_cen_</span>
+<span class="n">o_check</span> <span class="o">=</span> <span class="n">Orientation</span><span class="o">.</span><span class="n">from_rodrigues</span><span class="p">([</span><span class="mf">0.0499</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.3048</span><span class="p">,</span> <span class="mf">0.1040</span><span class="p">])</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mf">0.40495</span>  <span class="c"># lattice parameter in nm</span>
+<span class="n">Al_fcc</span> <span class="o">=</span> <span class="n">Lattice</span><span class="o">.</span><span class="n">face_centered_cubic</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="n">hkl_planes</span> <span class="o">=</span> <span class="n">HklPlane</span><span class="o">.</span><span class="n">get_family</span><span class="p">(</span><span class="s">&#39;002&#39;</span><span class="p">,</span> <span class="n">lattice</span><span class="o">=</span><span class="n">Al_fcc</span><span class="p">)</span>
+<span class="n">hkl_planes</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">HklPlane</span><span class="o">.</span><span class="n">get_family</span><span class="p">(</span><span class="s">&#39;022&#39;</span><span class="p">,</span> <span class="n">lattice</span><span class="o">=</span><span class="n">Al_fcc</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">j</span><span class="p">,</span> <span class="n">p</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">hkl_planes</span><span class="p">):</span>
+    <span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">)</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">miller_indices</span><span class="p">()</span>
+    <span class="n">ut</span><span class="p">,</span> <span class="n">lt</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">o_check</span><span class="o">.</span><span class="n">topotomo_tilts</span><span class="p">(</span><span class="n">p</span><span class="p">))</span> <span class="o">*</span> <span class="mi">180</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&#39;samrx = </span><span class="si">%.2f</span><span class="s"> samry = </span><span class="si">%.2f</span><span class="s"> for (</span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">lt</span><span class="p">,</span> <span class="n">ut</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>samrx = 9.24 samry = -55.40 for (2, 0, 0)
+samrx = 77.41 samry = 81.32 for (0, 2, 0)
+samrx = -8.48 samry = 33.21 for (0, 0, 2)
+samrx = 53.48 samry = -45.17 for (2, 2, 0)
+samrx = -35.21 samry = -62.83 for (-2, 2, 0)
+samrx = 0.53 samry = -11.04 for (2, 0, 2)
+samrx = -12.58 samry = 78.84 for (-2, 0, 2)
+samrx = 35.86 samry = 41.35 for (0, 2, 2)
+samrx = -52.60 samry = 22.32 for (0, -2, 2)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Proof-crystallographic-calculations">Proof crystallographic calculations<a class="anchor-link" href="#Proof-crystallographic-calculations">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="mf">0.2931</span><span class="p">,</span> <span class="mf">0.2931</span><span class="p">,</span> <span class="mf">0.4694</span>  <span class="c"># nm</span>
+<span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">,</span> <span class="n">gamma</span> <span class="o">=</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">120</span>  <span class="c"># degrees</span>
+<span class="n">alphar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="n">alpha</span><span class="p">)</span>
+<span class="n">betar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
+<span class="n">gammar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="n">gamma</span><span class="p">)</span>
+
+<span class="n">Ti7Al</span> <span class="o">=</span> <span class="n">Lattice</span><span class="o">.</span><span class="n">hexagonal</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;lattice transformation matrix:&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">Ti7Al</span><span class="o">.</span><span class="n">_matrix</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;lattice cell volume = </span><span class="si">%g</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">Ti7Al</span><span class="o">.</span><span class="n">volume</span><span class="p">())</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>lattice transformation matrix:
+[[  2.93100000e-01   0.00000000e+00   0.00000000e+00]
+ [ -1.46550000e-01   2.53832046e-01   0.00000000e+00]
+ [  2.87424604e-17   4.97834017e-17   4.69400000e-01]]
+lattice cell volume = 0.0349225
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">pi</span><span class="p">,</span> <span class="n">sqrt</span><span class="p">,</span> <span class="n">cos</span><span class="p">,</span> <span class="n">sin</span>
+
+<span class="k">def</span> <span class="nf">cell_volume</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">,</span> <span class="n">gamma</span><span class="p">):</span>
+    <span class="n">alphar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="n">alpha</span><span class="p">)</span>
+    <span class="n">betar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="n">beta</span><span class="p">)</span>
+    <span class="n">gammar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="n">gamma</span><span class="p">)</span>
+    <span class="n">V</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span> <span class="o">*</span> <span class="n">c</span> <span class="o">*</span> <span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">cos</span><span class="p">(</span><span class="n">alphar</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">-</span> <span class="n">cos</span><span class="p">(</span><span class="n">betar</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">-</span> <span class="n">cos</span><span class="p">(</span><span class="n">gammar</span><span class="p">)</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">alphar</span><span class="p">)</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">betar</span><span class="p">)</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">gammar</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">V</span>
+
+<span class="k">def</span> <span class="nf">lattice_matrix</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">alphar</span><span class="p">,</span> <span class="n">betar</span><span class="p">,</span> <span class="n">gammar</span><span class="p">):</span>
+    <span class="n">a_</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+    <span class="n">b_</span> <span class="o">=</span> <span class="n">b</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">cos</span><span class="p">(</span><span class="n">gammar</span><span class="p">),</span> <span class="n">sin</span><span class="p">(</span><span class="n">gammar</span><span class="p">),</span> <span class="mi">0</span><span class="p">])</span>
+    <span class="n">c1</span> <span class="o">=</span> <span class="n">c</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">betar</span><span class="p">)</span>
+    <span class="n">c2</span> <span class="o">=</span> <span class="n">c</span> <span class="o">*</span> <span class="p">(</span><span class="n">cos</span><span class="p">(</span><span class="n">alphar</span><span class="p">)</span> <span class="o">-</span> <span class="n">cos</span><span class="p">(</span><span class="n">gammar</span><span class="p">)</span> <span class="o">*</span> <span class="n">cos</span><span class="p">(</span><span class="n">betar</span><span class="p">))</span> <span class="o">/</span> <span class="n">sin</span><span class="p">(</span><span class="n">gammar</span><span class="p">)</span>
+    <span class="n">c_</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">c1</span><span class="p">,</span> <span class="n">c2</span><span class="p">,</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">c</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">-</span> <span class="n">c1</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">-</span> <span class="n">c2</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)])</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">a_</span><span class="p">,</span> <span class="n">b_</span><span class="p">,</span> <span class="n">c_</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float64</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="n">A</span> <span class="o">=</span> <span class="n">lattice_matrix</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">alphar</span><span class="p">,</span> <span class="n">betar</span><span class="p">,</span> <span class="n">gammar</span><span class="p">)</span>
+<span class="n">V</span> <span class="o">=</span> <span class="n">cell_volume</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">,</span> <span class="n">gamma</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">V</span><span class="p">)</span>
+<span class="n">lengths</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">A</span> <span class="o">**</span> <span class="mi">2</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;lattice lengths are </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">lengths</span><span class="p">)</span>
+<span class="n">angles</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+    <span class="n">j</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">%</span> <span class="mi">3</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">%</span> <span class="mi">3</span>
+    <span class="n">angles</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">A</span><span class="p">[</span><span class="n">k</span><span class="p">])</span> <span class="o">/</span> <span class="p">(</span><span class="n">lengths</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">*</span> <span class="n">lengths</span><span class="p">[</span><span class="n">k</span><span class="p">])</span>
+<span class="n">angles</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arccos</span><span class="p">(</span><span class="n">angles</span><span class="p">)</span> <span class="o">*</span> <span class="mf">180.</span> <span class="o">/</span> <span class="n">pi</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;lattice angles are </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">angles</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[  2.93100000e-01   0.00000000e+00   0.00000000e+00]
+ [ -1.46550000e-01   2.53832046e-01   0.00000000e+00]
+ [  2.87424604e-17   4.97834017e-17   4.69400000e-01]]
+0.0349225022365
+lattice lengths are [ 0.2931  0.2931  0.4694]
+lattice angles are [  90.   90.  120.]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="c"># redo (0, -1,  1,  0,) which is (0, -1, 0) calculation of Gc:</span>
+<span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">)</span> <span class="o">=</span> <span class="n">HklPlane</span><span class="o">.</span><span class="n">four_to_three_indices</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">astar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">A</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">/</span> <span class="n">V</span>
+<span class="n">bstar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">A</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">/</span> <span class="n">V</span>
+<span class="n">cstar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">A</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">/</span> <span class="n">V</span>
+<span class="n">Gc</span> <span class="o">=</span> <span class="n">h</span> <span class="o">*</span> <span class="n">astar</span> <span class="o">+</span> <span class="n">k</span> <span class="o">*</span> <span class="n">bstar</span> <span class="o">+</span> <span class="n">l</span> <span class="o">*</span> <span class="n">cstar</span>
+<span class="k">print</span><span class="p">(</span><span class="n">Gc</span><span class="p">)</span>
+<span class="n">Gs</span> <span class="o">=</span> <span class="n">grain</span><span class="o">.</span><span class="n">orientation</span><span class="o">.</span><span class="n">orientation_matrix</span><span class="p">()</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">Gc</span><span class="p">)</span>  <span class="c"># in the cartesian sample CS</span>
+<span class="c"># find topotomo tilts</span>
+<span class="n">ut</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arctan</span><span class="p">(</span><span class="o">-</span><span class="n">Gs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="n">Gs</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">lt</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arctan</span><span class="p">(</span><span class="n">Gs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">/</span> <span class="p">(</span><span class="o">-</span><span class="n">Gs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">ut</span><span class="p">)</span> <span class="o">+</span> <span class="n">Gs</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">ut</span><span class="p">)))</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&#39;samrx = </span><span class="si">%.2f</span><span class="s"> samry = </span><span class="si">%.2f</span><span class="s"> for (</span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">, </span><span class="si">%d</span><span class="s">)&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">lt</span> <span class="o">*</span> <span class="mi">180</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="n">ut</span> <span class="o">*</span> <span class="mi">180</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">l</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[  0.00000000e+00  -3.93961289e+00   4.17825588e-16]
+samrx = 12.18 samry = 30.46 for (0, -1, 0)
+</pre>
+</div>
 </div>
 
 </div>
