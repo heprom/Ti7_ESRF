@@ -1,0 +1,24 @@
+def t5_dct_cen_1__tt '{
+	 t5_dct_cen_1_grain0085_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0085_tt_1")
+	 t5_dct_cen_1_grain0017_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0017_tt_1")
+	 t5_dct_cen_1_grain0012_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0012_tt_1")
+	 t5_dct_cen_1_grain0009_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0009_tt_1")
+	 t5_dct_cen_1_grain0079_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0079_tt_1")
+	 t5_dct_cen_1_grain0024_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0024_tt_1")
+	 t5_dct_cen_1_grain0032_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0032_tt_1")
+	 t5_dct_cen_1_grain0066_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0066_tt_1")
+	 t5_dct_cen_1_grain0001_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0001_tt_1")
+	 t5_dct_cen_1_grain0016_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0016_tt_1")
+	 t5_dct_cen_1_grain0004_ttpar_1
+	 topotomo_func("t5_dct_cen_1_grain0004_tt_1")
+}'

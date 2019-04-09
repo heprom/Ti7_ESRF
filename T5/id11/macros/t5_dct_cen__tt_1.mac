@@ -1,0 +1,24 @@
+def t5_dct_cen__tt_	 '{
+     t5_dct_cen_grain0052_ttpar_1
+	 topotomo t5_dct_cen_grain0052_tt_1_
+	 t5_dct_cen_grain0016_ttpar_1
+	 topotomo t5_dct_cen_grain0016_tt_1_
+	 t5_dct_cen_grain0013_ttpar_1
+	 topotomo t5_dct_cen_grain0013_tt_1_
+	 t5_dct_cen_grain0007_ttpar_1
+	 topotomo t5_dct_cen_grain0007_tt_1_
+	 t5_dct_cen_grain0073_ttpar_1
+	 topotomo t5_dct_cen_grain0073_tt_1_
+	 t5_dct_cen_grain0024_ttpar_1
+	 topotomo t5_dct_cen_grain0024_tt_1_
+	 t5_dct_cen_grain0036_ttpar_1
+	 topotomo t5_dct_cen_grain0036_tt_1_
+	 t5_dct_cen_grain0062_ttpar_1
+	 topotomo t5_dct_cen_grain0062_tt_1_
+	 t5_dct_cen_grain0002_ttpar_1
+	 topotomo t5_dct_cen_grain0002_tt_1_
+	 t5_dct_cen_grain0003_ttpar_1
+	 topotomo t5_dct_cen_grain0003_tt_1_
+	 t5_dct_cen_grain0004_ttpar_1
+	 topotomo t5_dct_cen_grain0004_tt_1_
+}'

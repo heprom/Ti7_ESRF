@@ -1,0 +1,228 @@
+def checkrange_4 '{
+	 FTOMO_PAR["rot_mot"] = diffry
+	 FTOMO_PAR["data_dir"] = "/data/visitor/ma3921/id11/t5_/checkrange_4"
+	 u mkdir /data/visitor/ma3921/id11/t5_/checkrange_4
+	 grain0085_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0085_checkrange_0deg_4_ -7.395715 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0085_checkrange_90deg_4_ -7.395715 2.00 80 0.100000
+	 grain0017_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0017_checkrange_0deg_4_ -7.395715 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0017_checkrange_90deg_4_ -7.395715 2.00 80 0.100000
+	 grain0012_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0012_checkrange_0deg_4_ -8.553499 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0012_checkrange_90deg_4_ -8.553499 2.00 80 0.100000
+	 grain0009_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0009_checkrange_0deg_4_ -6.445893 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0009_checkrange_90deg_4_ -6.445893 2.00 80 0.100000
+	 grain0079_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0079_checkrange_0deg_4_ -8.553499 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0079_checkrange_90deg_4_ -8.553499 2.00 80 0.100000
+	 grain0024_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0024_checkrange_0deg_4_ -8.553499 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0024_checkrange_90deg_4_ -8.553499 2.00 80 0.100000
+	 grain0032_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0032_checkrange_0deg_4_ -7.395715 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0032_checkrange_90deg_4_ -7.395715 2.00 80 0.100000
+	 grain0066_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0066_checkrange_0deg_4_ -7.395715 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0066_checkrange_90deg_4_ -7.395715 2.00 80 0.100000
+	 grain0001_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0001_checkrange_0deg_4_ -7.395715 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0001_checkrange_90deg_4_ -7.395715 2.00 80 0.100000
+	 grain0016_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0016_checkrange_0deg_4_ -8.553499 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0016_checkrange_90deg_4_ -8.553499 2.00 80 0.100000
+	 grain0004_ttpar_1
+	 umv diffrz 0
+	 ftomoscan grain_0004_checkrange_0deg_4_ -7.395715 2.00 80 0.100000
+	 umv diffrz 90
+	 ftomoscan grain_0004_checkrange_90deg_4_ -7.395715 2.00 80 0.100000
+	 FTOMO_PAR["rot_mot"] = diffrz
+	 FTOMO_PAR["data_dir"] = "/data/visitor/ma3921/id11/t5_"
+}'
+
+def grain0085_ttpar_4 '{
+	 p "moving to: diffry -6.395715 samrx 13.051581 samry -5.747880 samtx 0.302943 samty -0.145185 samtz -4.475041 nfdtx 116.200000 d3tz 4.638369"
+	 A[motor_num(diffry)] = -6.395715
+	 A[motor_num(samrx)]  = 13.051581
+	 A[motor_num(samry)]  = -5.747880
+	 A[motor_num(samtx)]  = 0.302943
+	 A[motor_num(samty)]  = -0.145185
+	 A[motor_num(samtz)]  = -4.475041
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 4.638369
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0017_ttpar_4 '{
+	 p "moving to: diffry -6.395715 samrx -10.736496 samry 7.038624 samtx 0.252788 samty -0.230322 samtz -4.559724 nfdtx 116.200000 d3tz 4.638369"
+	 A[motor_num(diffry)] = -6.395715
+	 A[motor_num(samrx)]  = -10.736496
+	 A[motor_num(samry)]  = 7.038624
+	 A[motor_num(samtx)]  = 0.252788
+	 A[motor_num(samty)]  = -0.230322
+	 A[motor_num(samtz)]  = -4.559724
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 4.638369
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0012_ttpar_4 '{
+	 p "moving to: diffry -7.553499 samrx 2.207744 samry 2.073922 samtx 0.222334 samty -0.194599 samtz -4.715349 nfdtx 116.200000 d3tz 5.515114"
+	 A[motor_num(diffry)] = -7.553499
+	 A[motor_num(samrx)]  = 2.207744
+	 A[motor_num(samry)]  = 2.073922
+	 A[motor_num(samtx)]  = 0.222334
+	 A[motor_num(samty)]  = -0.194599
+	 A[motor_num(samtz)]  = -4.715349
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 5.515114
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0009_ttpar_4 '{
+	 p "moving to: diffry -5.445893 samrx 0.209711 samry -13.486030 samtx 0.256680 samty -0.015831 samtz -4.597468 nfdtx 116.200000 d3tz 3.931160"
+	 A[motor_num(diffry)] = -5.445893
+	 A[motor_num(samrx)]  = 0.209711
+	 A[motor_num(samry)]  = -13.486030
+	 A[motor_num(samtx)]  = 0.256680
+	 A[motor_num(samty)]  = -0.015831
+	 A[motor_num(samtz)]  = -4.597468
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 3.931160
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0079_ttpar_4 '{
+	 p "moving to: diffry -7.553499 samrx 11.250639 samry 4.667972 samtx 0.294798 samty -0.118069 samtz -4.756799 nfdtx 116.200000 d3tz 5.515114"
+	 A[motor_num(diffry)] = -7.553499
+	 A[motor_num(samrx)]  = 11.250639
+	 A[motor_num(samry)]  = 4.667972
+	 A[motor_num(samtx)]  = 0.294798
+	 A[motor_num(samty)]  = -0.118069
+	 A[motor_num(samtz)]  = -4.756799
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 5.515114
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0024_ttpar_4 '{
+	 p "moving to: diffry -7.553499 samrx -4.472088 samry -10.506809 samtx 0.238615 samty -0.000511 samtz -4.736695 nfdtx 116.200000 d3tz 5.515114"
+	 A[motor_num(diffry)] = -7.553499
+	 A[motor_num(samrx)]  = -4.472088
+	 A[motor_num(samry)]  = -10.506809
+	 A[motor_num(samtx)]  = 0.238615
+	 A[motor_num(samty)]  = -0.000511
+	 A[motor_num(samtz)]  = -4.736695
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 5.515114
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0032_ttpar_4 '{
+	 p "moving to: diffry -6.395715 samrx 2.641216 samry -12.209316 samtx 0.273078 samty -0.008500 samtz -4.844450 nfdtx 116.200000 d3tz 4.638369"
+	 A[motor_num(diffry)] = -6.395715
+	 A[motor_num(samrx)]  = 2.641216
+	 A[motor_num(samry)]  = -12.209316
+	 A[motor_num(samtx)]  = 0.273078
+	 A[motor_num(samty)]  = -0.008500
+	 A[motor_num(samtz)]  = -4.844450
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 4.638369
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0066_ttpar_4 '{
+	 p "moving to: diffry -6.395715 samrx -10.055702 samry 6.646150 samtx 0.291021 samty 0.168463 samtz -4.691872 nfdtx 116.200000 d3tz 4.638369"
+	 A[motor_num(diffry)] = -6.395715
+	 A[motor_num(samrx)]  = -10.055702
+	 A[motor_num(samry)]  = 6.646150
+	 A[motor_num(samtx)]  = 0.291021
+	 A[motor_num(samty)]  = 0.168463
+	 A[motor_num(samtz)]  = -4.691872
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 4.638369
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0001_ttpar_4 '{
+	 p "moving to: diffry -6.395715 samrx 13.587913 samry -7.595539 samtx 0.028976 samty -0.137402 samtz -4.652305 nfdtx 116.200000 d3tz 4.638369"
+	 A[motor_num(diffry)] = -6.395715
+	 A[motor_num(samrx)]  = 13.587913
+	 A[motor_num(samry)]  = -7.595539
+	 A[motor_num(samtx)]  = 0.028976
+	 A[motor_num(samty)]  = -0.137402
+	 A[motor_num(samtz)]  = -4.652305
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 4.638369
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0016_ttpar_4 '{
+	 p "moving to: diffry -7.553499 samrx -3.518023 samry -3.206210 samtx 0.093758 samty -0.174318 samtz -4.487633 nfdtx 116.200000 d3tz 5.515114"
+	 A[motor_num(diffry)] = -7.553499
+	 A[motor_num(samrx)]  = -3.518023
+	 A[motor_num(samry)]  = -3.206210
+	 A[motor_num(samtx)]  = 0.093758
+	 A[motor_num(samty)]  = -0.174318
+	 A[motor_num(samtz)]  = -4.487633
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 5.515114
+	 move_all
+	 waitmove
+	 get_angles
+}'
+
+def grain0004_ttpar_4 '{
+	 p "moving to: diffry -6.395715 samrx -9.582956 samry -13.618135 samtx 0.058609 samty 0.103196 samtz -4.732655 nfdtx 116.200000 d3tz 4.638369"
+	 A[motor_num(diffry)] = -6.395715
+	 A[motor_num(samrx)]  = -9.582956
+	 A[motor_num(samry)]  = -13.618135
+	 A[motor_num(samtx)]  = 0.058609
+	 A[motor_num(samty)]  = 0.103196
+	 A[motor_num(samtz)]  = -4.732655
+	 A[motor_num(nfdtx)]  = 116.200000
+	 A[motor_num(d3tz)]  = 4.638369
+	 move_all
+	 waitmove
+	 get_angles
+}'
+

@@ -1,0 +1,66 @@
+def t5_dct_cen_1_grain0085_ttpar_1 '{
+	umv diffry -6.395715 samrx 13.051581 samry -5.747880 samtx 0.302943 samty -0.145185 samtz -4.475041 nfdtx 116.200000 d3tz 4.638369
+	TT_PAR["start"] = -7.195715
+	TT_PAR["end"] = -5.595715
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0017_ttpar_1 '{
+	umv diffry -6.395715 samrx -10.736496 samry 7.038624 samtx 0.252788 samty -0.230322 samtz -4.559724 nfdtx 116.200000 d3tz 4.638369
+	TT_PAR["start"] = -7.195715
+	TT_PAR["end"] = -5.595715
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0012_ttpar_1 '{
+	umv diffry -7.553499 samrx 2.207744 samry 2.073922 samtx 0.222334 samty -0.194599 samtz -4.715349 nfdtx 116.200000 d3tz 5.515114
+	TT_PAR["start"] = -8.353499
+	TT_PAR["end"] = -6.753499
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0009_ttpar_1 '{
+	umv diffry -5.445893 samrx 0.209711 samry -13.486030 samtx 0.256680 samty -0.015831 samtz -4.597468 nfdtx 116.200000 d3tz 3.931160
+	TT_PAR["start"] = -6.245893
+	TT_PAR["end"] = -4.645893
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0079_ttpar_1 '{
+	umv diffry -7.553499 samrx 11.250639 samry 4.667972 samtx 0.294798 samty -0.118069 samtz -4.756799 nfdtx 116.200000 d3tz 5.515114
+	TT_PAR["start"] = -8.353499
+	TT_PAR["end"] = -6.753499
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0024_ttpar_1 '{
+	umv diffry -7.553499 samrx -4.472088 samry -10.506809 samtx 0.238615 samty -0.000511 samtz -4.736695 nfdtx 116.200000 d3tz 5.515114
+	TT_PAR["start"] = -8.353499
+	TT_PAR["end"] = -6.753499
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0032_ttpar_1 '{
+	umv diffry -6.395715 samrx 2.641216 samry -12.209316 samtx 0.273078 samty -0.008500 samtz -4.844450 nfdtx 116.200000 d3tz 4.638369
+	TT_PAR["start"] = -7.195715
+	TT_PAR["end"] = -5.595715
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0066_ttpar_1 '{
+	umv diffry -6.395715 samrx -10.055702 samry 6.646150 samtx 0.291021 samty 0.168463 samtz -4.691872 nfdtx 116.200000 d3tz 4.638369
+	TT_PAR["start"] = -7.195715
+	TT_PAR["end"] = -5.595715
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0001_ttpar_1 '{
+	umv diffry -6.395715 samrx 13.587913 samry -7.595539 samtx 0.028976 samty -0.137402 samtz -4.652305 nfdtx 116.200000 d3tz 4.638369
+	TT_PAR["start"] = -7.195715
+	TT_PAR["end"] = -5.595715
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0016_ttpar_1 '{
+	umv diffry -7.553499 samrx -3.518023 samry -3.206210 samtx 0.093758 samty -0.174318 samtz -4.487633 nfdtx 116.200000 d3tz 5.515114
+	TT_PAR["start"] = -8.353499
+	TT_PAR["end"] = -6.753499
+	TT_PAR["images"] = 64
+}'
+def t5_dct_cen_1_grain0004_ttpar_1 '{
+	umv diffry -6.395715 samrx -9.582956 samry -13.618135 samtx 0.058609 samty 0.103196 samtz -4.732655 nfdtx 116.200000 d3tz 4.638369
+	TT_PAR["start"] = -7.195715
+	TT_PAR["end"] = -5.595715
+	TT_PAR["images"] = 64
+}'

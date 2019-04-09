@@ -1,0 +1,21 @@
+def loadramp_2 '{
+	 pct_in
+	 umv diffrz 0 # looking at sample in pct configuration
+	 u mkdir /data/visitor/ma3921/id11/t5_/loadramp_2_
+	 ccdnewfile_function("1 0 /data/visitor/ma3921/id11/t5_/loadramp_2_ loadramp_2_ .edf 0")
+	 p "now run a series of ascans in SPEC sesssion E753..."
+	 ascan stress 0.000000 0.000000 10 0.100000
+	 ccdnewfile_function("0 0 /data/visitor/ma3921/id11/t5_/loadramp_2_ loadramp_2_ .edf 0")
+	 p "please update the samtz position before launching the dct and pct scans"
+	 fasttomo360 t5_pct_2_
+	 dct_in
+	 fasttomo360 t5_dct_2_
+	 tt_in
+	 p "Remember to run function prepare_checkrange in MATLAB before continuing with:"
+	 qdo ./checkrange_2.mac
+	 checkrange_2
+	 p "Remember to run function find_range in MATLAB before continuing with:"
+	 qdo ./tt_2.mac
+	 tt_2
+}'
+

@@ -1,0 +1,10 @@
+def t5_dct_cen_tt_init '{
+	 t5_dct_cen_grain0062_ttpar_1
+	 topotomo_func("t5_dct_cen_grain0062_tt_1")
+	 t5_dct_cen_grain0002_ttpar_1
+	 topotomo_func("t5_dct_cen_grain0002_tt_1")
+	 t5_dct_cen_grain0003_ttpar_1
+	 topotomo_func("t5_dct_cen_grain0003_tt_1")
+	 t5_dct_cen_grain0004_ttpar_1
+	 topotomo_func("t5_dct_cen_grain0004_tt_1")
+}'
