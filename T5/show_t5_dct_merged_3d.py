@@ -5,6 +5,8 @@ from pymicro.view.vtk_utils import numpy_support
 from pymicro.view.vtk_utils import *
 from pymicro.view.scene3d import *
 from pymicro.file.file_utils import HST_read
+from pymicro.crystal.microstructure import Microstructure
+
 from scipy import ndimage
 
 show_sample = False
@@ -14,9 +16,11 @@ ds = 2  # downsample
 #data_dir = 'id11/t5_/t5_dct_bot_/5_reconstruction'
 #f = h5py.File(os.path.join(data_dir, 'volume_dilated.mat'))
 #grain_ids = f['grains'][::ds, 100:590:ds, 100:630:ds].transpose(2, 1, 0)
-grain_ids = HST_read('t5_test_cat.raw')[::ds, ::ds, ::ds]
+#grain_ids = HST_read('t5_test_cat.raw')[::ds, ::ds, ::ds]
+m = Microstructure.from_h5('t5_dct_bot_-t5_dct_cen_.h5')
+grain_ids = m.grain_map[::ds, ::ds, ::ds]
 dims = np.array(grain_ids.shape)
-grain_ids[:dims[0] // 2, :dims[1] // 2, :] = 0
+#grain_ids[:dims[0] // 2, :dims[1] // 2, :] = 0
 #f.close()
 
 # create our vtk actors
@@ -31,7 +35,8 @@ s3d.add(box)
 s3d.add(axes)
 
 if show_sample:
-    mask = HST_read('t5_test_cat_mask.raw')[::ds, ::ds, ::ds]
+    #mask = HST_read('t5_test_cat_mask.raw')[::ds, ::ds, ::ds]
+    mask = m.mask[::ds, ::ds, ::ds]
     sample = show_array(mask)
     sample.GetProperty().SetOpacity(0.3)
     s3d.add(sample)
